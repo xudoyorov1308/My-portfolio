@@ -1,225 +1,383 @@
-* {
+*{
     list-style: none;
     text-decoration: none;
 }
-.cantaynr_h1{
-     color: #b68e0c;
-}
-.color_enough{
-    color: blueviolet;
-}
+
 body {
-    margin: 0px;
-    background-color: rgb(2, 2, 20);
-}
-h1  h3{
-    flex-wrap: wrap;
-}
-p{
-    flex-wrap: wrap;
+    margin: auto;
 }
 
-header nav {
+/*--------------- Start header -----------/*/
+header {
+    background-image: url(./images/CoD-WWII.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 99px;
+}
+
+nav {
+    background-color: #373A3C;
+}
+
+.nav_ {
     display: flex;
     justify-content: space-between;
     max-width: 80%;
     margin: auto;
-    margin-bottom: 227px;
-    margin-top: 41px;
+    margin-bottom: 23px;
 }
 
-nav ul {
-    display: flex;
+nav .select {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
     flex-wrap: wrap;
-    gap: 50px;
-    color: white;
+    margin-top: 21px;
 }
 
-.logos i{
-  background-color: white;
-  font-size: 30px;
-  margin-top: 20px;
-  gap: 20px;
-}
- li a {
-    color: white;
-    text-decoration: none;
+.nav img {
+    margin-bottom: 20px;
 }
 
-.second_nav {
+.input_text {
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin-bottom: 23px;
+}
+
+.order {
+    max-width: 300px;
+    margin: auto;
+}
+
+.order h1 {
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 106px;
+}
+
+.order p {
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.order_txts {
+    padding-top: 109px;
+    margin-bottom: 139px;
+    flex-wrap: wrap;
+}
+
+.order_buttns {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 73px;
+    padding-bottom: 204px;
+}
+
+.buttons_buttn1 {
+    width: 136px;
+    height: 38px;
+    border-radius: 4px;
+    background: #8DD83D;
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.buttons_buttn2 {
+    width: 136px;
+    height: 38px;
+    border-radius: 4px;
+    background: #8DD83D;
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+/*--------------------- finish header----------*/
+
+
+/*--------------------- start tecnical --------*/
+
+.spesifection {
+    max-width: 80%;
+    margin: auto;
+}
+
+.spesifection {
+    text-align: center;
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 208px;
+    flex-wrap: wrap;
+}
+
+.spesifection_buttons {}
+
+.button1 {
+    width: 170px;
+    height: 52px;
+    border-radius: 4px;
+    background: #8DD83D;
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.button2 {
+    width: 235px;
+    height: 52px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    width: 194px;
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.png_duty {
+    width: 100%;
+}
+
+.advice {
     display: grid;
     grid-template-columns: auto auto;
     max-width: 80%;
     margin: auto;
-    margin-bottom: 348px;
-}
-.second_nav h1 {
-    color: white;
-    margin-top: 120px;
-}
-.about_me img{
-    max-width: 100%;
+    gap: 100px;
+    margin-bottom: 50px;
 }
 
-.second_nav span {
-    background: var(
-    --Gradient-Heading,
-    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
-  );
+.advice h1 {
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 400;
 }
-.my_techs{
-    margin-top: 150px;
+
+.advice img {
+    width: 100%;
+    border-radius: 4px;
 }
-.my_techs .textes {
-   text-align: center;
-   color: white;
-   margin-bottom: 147px;
-   flex-wrap: wrap;
-}
-.icons1{
+
+.ansvers {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 13px;
+    grid-template-columns: auto auto;
     max-width: 80%;
     margin: auto;
-    margin-bottom: 71px;
+    margin-bottom: 100px;
 }
 
-.icons2{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 13px;
+.ansvers h1 {
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.ansvers img {
+    border-radius: 5px;
+}
+
+
+.before_footer{
     max-width: 80%;
     margin: auto;
-    margin-bottom: 214px;
 }
-
-
-.about_me{
+.before_footer h1{
     text-align: center;
-    flex-wrap: wrap;
-    max-width: 80%;
-    margin: auto;
-    color: rgb(165, 132, 93)
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 400;
 }
-.about_me h1{
-    color: rgb(92, 77, 41);
-
-}
-
-/*--------------------start my projects-------*/
-
-
-
-
-.first_projects{
+.ultimate{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 60px 20px ;
-    max-width: 1000px;
+
+}
+.ultimate p{
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    font-weight: 400;
+}
+.owner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #435766;
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.battns{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 50%;
     margin: auto;
-    margin-bottom: 65px;
-    padding: 0px 15px;
+    gap: 16px;
 }
 
-.first_project{
-    height: auto;
-    border-radius: 20px;
-    background: #363636;
-    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
-}
-.first_project h3{
-    color: var(--Solid-Heading-Dark-mode, #CCC);
-    max-width: 80%;
-    margin: auto;
-    font-family: Poppins;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px; /* 92.857% */
-    margin-bottom: 17px;
-}
-
-.first_project p{
-    max-width: 80%;
-    margin: auto;
-    color: var(--Solid-Heading-Dark-mode, #CCC);
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 26px; /* 144.444% */
-    margin-bottom: 24px;
-}
-
-.first_project_img1{
-    width: 100%;
-    height: 260px;
-    flex-shrink: 0;
-    border-radius: 20px 20px 0px 0px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
-    margin-bottom: 27px;
-}
-
-
-button {
-    display: flex;
-    width: 236px;
-    margin: auto;
-    padding: 16px 0px;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
-    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+.battns_button1{
+    width: 235px;
+    height: 52px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
     border: none;
-    color: var(--Light-text, #FFF);
-    font-family: Montserrat;
-    font-size: 20px;
+    color: white;
+}
+
+.battns_button2{
+    width: 235px;
+    height: 52px;
+    border-radius: 4px;
+    background: #8DD83D;
+    border: none;
+    color: white;
+    margin-bottom: 109px;
+}
+/*--------------finish tecnical ------------*/
+/*-------------- start footer -------------*/
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #373A3C;
+}
+
+.footer_first{
+    max-width: 80%;
+    margin: auto;
+}
+.footer_first p{
+    color: #7DD42F;
+    font-family: HelveticaNeue;
+    font-size: 18px;
     font-weight: 700;
-    background: var(
-     --Gradient-Heading,
-     linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
-      );
-
+    margin-left: 43px ;
+}
+footer p{
+    color: #7DD42F;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 43px;
+    flex-wrap: wrap;
+}
+ footer li{
+    color: #FFF;
+    padding: 18px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+}
+.follow_us img{
+    margin-left: 35px;
 }
 
-button:hover{
-    cursor: pointer;
-}
+@media screen and (max-width: 768px) {
+    nav .select {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 
-/*--------------------finish my projects-------*/
+    .input_text {
+        margin-left: 20px;
+    }
 
+    .buttons_buttn2 {
+        margin-right: 30px;
+    }
 
-.logo22{
-    display: flex;
-}
-@media screen and (max-width:851px) {
-    .second_nav {
+    .order_buttns {
         display: grid;
         grid-template-columns: auto;
     }
-    .icons1{
+
+    .button2 {
+        margin-bottom: 80px;
+    }
+
+    .advice {
         display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
-        margin-bottom: 30px;
-        padding-bottom: 30px;
+        grid-template-columns: auto;
     }
-    .icons2{
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
+
+    .advice h1 {
+        margin-left: 30px;
+        text-align: center;
     }
-    .first_projects{
-        grid-template-columns: auto auto;
+
+    .ansvers img {
+        width: 100%;
     }
-}
-@media screen and (max-width:500px) {
-    .first_projects{
+
+    .ansvers {
         display: grid;
         grid-template-columns: auto ;
     }
-    .second_projects{
+    .ultimate{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .owner{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .battns{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 10px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .footer_first{
+        margin-bottom: 30px;
+    }
+    .footer_second{
+        margin-left: 77px;
+        margin-bottom: 10px;
+    }
+    .follow_us{
+      margin-left: 80px;
+
+    }
+    .follow_us img{
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .ultimate{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .owner{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    footer{
         display: grid;
         grid-template-columns: auto;
     }
